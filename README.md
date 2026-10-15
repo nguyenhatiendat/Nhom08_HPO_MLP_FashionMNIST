@@ -23,7 +23,7 @@
 | STT | Họ và tên | MSSV | Thư mục | Vai trò |
 |:---:|---|---|---|---|
 | 1 | Nguyễn Hà Tiến Đạt | 2474802010077 | `NguyenHaTienDat_2474802010077/` | 📐 Mô hình hóa · Baseline · Dữ liệu |
-| 2 | [Họ tên SV2] | [MSSV] | `[Thư mục SV2]/` | ⚙️ Thuật toán chính (Grid, Random, TPE) · Code |
+| 2 | Nguyễn Bảo Lâm | [247480201.... | `NguyenBaoLam_247480201..../` | ⚙️ Thuật toán chính (Grid, Random, TPE) · Code |
 | 3 | [Họ tên SV3] | [MSSV] | `[Thư mục SV3]/` | 📊 Thiết kế thực nghiệm · Phân tích · Trực quan hóa |
 
 > 💡 Mỗi thành viên làm việc trong thư mục riêng. Đóng góp được ghi nhận qua **commit history**.
@@ -54,23 +54,6 @@
 | 🎲 **Seed** | 10 seed cho Random và TPE; báo cáo mean ± std, best, worst |
 | 🚫 **Test set** | Chỉ dùng **một lần** ở bước báo cáo cuối, không dùng để chọn siêu tham số |
 | 📝 **Lưu vết** | Mọi trial ghi ra CSV trong `results/` để vẽ convergence và tái lập |
-
----
-
-## 📁 Cấu trúc repo
-
-```text
-Nhom08_HPO_MLP_FashionMNIST/
-├── 📄 README.md
-├── 📂 NguyenHaTienDat_2474802010077/     # SV1
-│   ├── 🐍 common.py                      # load_data, train_eval, ...
-│   ├── ⚙️ config.yaml                    # seed, ngân sách, search space, lưới Grid
-│   ├── 📓 Nhom08_..._01_data_baseline.ipynb
-│   └── 📂 results/
-│       └── 📊 baseline.csv
-├── 📂 [Thư mục SV2]/                     # Grid, Random, TPE + log từng trial
-└── 📂 [Thư mục SV3]/                     # phân tích, hình, báo cáo
-```
 
 ---
 
@@ -108,10 +91,3 @@ data = load_data()
 - [ ] Báo cáo (5 chương), slide, demo
 
 ---
-
-## 📚 Tài liệu
-
-| | Link |
-|---|---|
-| 📝 Báo cáo | *(thêm sau khi hoàn thành)* |
-| 🎞️ Slide | *(thêm sau khi hoàn thành)* |
